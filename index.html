@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title >反射神経測定</title>
+  <base href="C:\Users\1598091\Desktop\FND\foundations\last_kadai\index.html">
+  <link rel="stylesheet" type="text/css" href="C:\Users\1598091\Desktop\FND\foundations\last_kadai\style.css">
+  <meta name="theme-color" content="#000000">
+</head>
+
+<body>
+  <div id="mainscreen">
+    <header>
+      <hgroup>
+        <h1>Reaction Time Test</h1>
+      </hgroup>
+    </header>
+    <div class="active">
+      <div id ="description">
+        <p class="intro">遊び方説明</p>
+        <p>スタートで3秒のカウントダウンの後、赤色のボタンが表示されます。</p>
+        <p class="arrow">⇓</p>
+        <p>赤色のボタンが緑色になったらクリックしてください。</p>
+        <p class="arrow">⇓</p>
+        <p>色が変わってからクリックするまでの秒数であなたの反射神経を測定します。</p>
+      </div>
+      <button id="main-button" type="button">クリックでスタート</button>
+      <p class="intro">一般的に反射神経は２０歳をピークにだんだん衰えると言われています。<br />
+      あなたの反射神経は何歳程度でしょう（あくまで目安なので過信しないように！）
+      </p>
+      <div id="sub">
+        <button id="setting" class="sub-button" type="button" onclick="mainbutton()">設定</button>
+      </div>
+    </div>
+  </div>
+  <div id="settingscreen">
+    <input type="checkbox" id="noiseonoff" name="noise">ノイズ効果 有無
+    <button id="remove">戻る</button>
+  </div>
+  <div class="playscreen">
+    <p id="count1">3</p>
+    <button id="badbutton"></button>
+    <button id="succesbutton"></button>
+  </div>
+  <div id="result">
+    <p>結果</p>
+    <p id="time"></p>
+    <p id="lasttime">前回の測定結果</p>
+    <button id="return">最初に戻る</button>
+  </div>
+  <script type="text/javascript" src="C:\Users\1598091\Desktop\FND\foundations\last_kadai\script.js"></script>
+</body>
+
+</html>
