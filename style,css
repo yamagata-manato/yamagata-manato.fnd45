@@ -1,0 +1,239 @@
+body {
+  width: 100%;
+  min-height: 100vh;
+  font-family: serif;
+  background-image: url("abstract-gray-oil-paint-textured-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#mainscreen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  font-size: 200%;
+  font-family: cursive;
+}
+
+#description {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.active {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#main-button:active {
+  transform: scale(0.95);
+}
+
+#main-button {
+  width: 15em;
+  height: 5em;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+#sub {
+  width: 40em;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+}
+.sub-button {
+  width: 10em;
+  height: 5em;
+  display: inline-block;
+  text-align: center;
+}
+
+#settingscreen {
+  height: 60em;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+}
+
+#remove {
+
+  width: 10em;
+  height: 5em;
+}
+
+#badbutton {
+  width: 50em;
+  height: 50em;
+  background: rgba(255, 51, 0, 0.705);
+  display: none;
+}
+
+#succesbutton {
+  width: 50em;
+  height: 50em;
+  background: rgba(82, 214, 122, 0.904);
+  display: none;
+}
+
+#count1 {
+  height: 10em;
+  font-size: 100px;
+  display: none;
+}
+
+#result {
+  min-height: 100vh;
+  font-size: 200%;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#return {
+  width: 20em;
+  height: 10em;
+}
+
+.playscreen {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}body {
+  width: 100%;
+  min-height: 100vh;
+  font-family: serif;
+  background-image: url("abstract-gray-oil-paint-textured-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#mainscreen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  font-size: 200%;
+  font-family: cursive;
+}
+
+#description {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.active {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#main-button:active {
+  transform: scale(0.95);
+}
+
+#main-button {
+  width: 15em;
+  height: 5em;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+#sub {
+  width: 40em;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+}
+.sub-button {
+  width: 10em;
+  height: 5em;
+  display: inline-block;
+  text-align: center;
+}
+
+#settingscreen {
+  height: 60em;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+}
+
+#remove {
+
+  width: 10em;
+  height: 5em;
+}
+
+#badbutton {
+  width: 50em;
+  height: 50em;
+  background: rgba(255, 51, 0, 0.705);
+  display: none;
+}
+
+#succesbutton {
+  width: 50em;
+  height: 50em;
+  background: rgba(82, 214, 122, 0.904);
+  display: none;
+}
+
+#count1 {
+  height: 10em;
+  font-size: 100px;
+  display: none;
+}
+
+#result {
+  min-height: 100vh;
+  font-size: 200%;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#return {
+  width: 20em;
+  height: 10em;
+}
+
+.playscreen {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
